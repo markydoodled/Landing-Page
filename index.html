@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 200px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 800px;
+        }
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .grid-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .grid-item i {
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To The Cyber-fs01 Landing Page</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <i class="fas fa-database"></i>
+            <a href="https://Cyber-fs01/phpmyadmin" target="_blank">PHPMyAdmin</a>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa-chart-line"></i>
+            <a href="https://Cyber-fs01/leaderboard" target="_blank">Try Hack Me Leaderboard</a>
+        </div>
+        <div class="grid-item">
+            <i class="fas fa-desktop"></i>
+            <a href="https://Cyber-fs01/Computing-Equipment" target="_blank">Equipment Inventory System</a>
+        </div>
+    </div>
+</body>
+</html>
